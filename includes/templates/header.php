@@ -8,6 +8,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+<meta http-equiv="Expires" content="0">
+ 
+<meta http-equiv="Last-Modified" content="0">
+ 
+<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+ 
+<meta http-equiv="Pragma" content="no-cache">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
