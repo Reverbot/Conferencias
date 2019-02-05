@@ -18,7 +18,8 @@
 <meta http-equiv="Pragma" content="no-cache">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="stylesheet" href="css/colorbox.css">
   <link rel="stylesheet" href="css/lightbox.css">     
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
