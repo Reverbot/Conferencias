@@ -19,8 +19,18 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 	<!-- Place favicon.ico in the root directory -->
-	<link rel="stylesheet" href="css/colorbox.css">
-  <link rel="stylesheet" href="css/lightbox.css">     
+
+	<?php
+		$archivo = basename($_SERVER['PHP_SELF']);
+		$pagina = str_replace('.php', "", $archivo);
+		if($pagina == 'invitados'){
+			echo '<link rel="stylesheet" href="css/colorbox.css">';
+		}else if($pagina == 'conferencia'){
+			echo '<link rel="stylesheet" href="css/lightbox.css">';
+		}
+	 ?>
+	
+    
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
