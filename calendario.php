@@ -60,9 +60,7 @@
                     <p class="hora"><i class="fa fa-clock"  aria-hidden="true"></i><?php echo $evento['fecha'] . " " . $evento['hora'];  ?></p>
                     <p><i class="<?php echo $evento['icono']; ?>"  aria-hidden="true"></i><?php echo $evento['categoria']; ?></p>
                     <p><i class="fa fa-user"  aria-hidden="true"></i><?php echo $evento['invitado']; ?></p>
-                    <pre>
-                            <?php var_dump($evento); ?>
-                        </pre>
+                    
                 </div>
             <?php } ?>
        <?php }  ?>
