@@ -189,4 +189,8 @@ $(function(){
 	$('.menu-movil').on('click', function(){
 		$('.navegacion-principal').slideToggle();
 	})
+
+	//colorbox
+
+	$('.invitado-info').colorbox({inline:true, width:'50%'});
 });
