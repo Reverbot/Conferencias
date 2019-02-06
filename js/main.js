@@ -142,6 +142,10 @@
 })();
 
 $(function(){
+	$('body.conferencia .navegacion-principal a:contains("Conferencia")').addClass('activo');
+	$('body.calendario .navegacion-principal a:contains("Calendario")').addClass('activo');
+	$('body.invitados .navegacion-principal a:contains("Invitados")').addClass('activo');
+
 	$('.programa-evento .info-curso:first').show();
 	$('.menu-programa a:first').addClass('activo');
 	$('.menu-programa a').on('click', function(){
@@ -193,4 +197,6 @@ $(function(){
 	//colorbox
 
 	$('.invitado-info').colorbox({inline:true, width:'50%'});
+
+	
 });

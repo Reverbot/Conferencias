@@ -981,10 +981,8 @@ h4{
 }
 
 .cboxElement{
-	padding: 30px !important;
 	text-align: center;
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -1064,6 +1062,9 @@ h4{
 
 .clearfix:after {
     clear: both;
+}
+.navegacion-principal .activo{
+	border-bottom: 2px solid #FE4918;
 }
 
 /* ==========================================================================
